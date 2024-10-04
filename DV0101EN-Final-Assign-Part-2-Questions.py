@@ -56,7 +56,6 @@ app.layout = html.Div([
 #TASK 2.4: Creating Callbacks
 # Define the callback function to update the input container based on the selected statistics
 @app.callback(
-      @app.callback(
       Output('select-year', 'disabled'),
       Input('dropdown-statistics','value'))
 
